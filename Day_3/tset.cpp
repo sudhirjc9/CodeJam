@@ -32,6 +32,9 @@ void PrintRepeating_(int arr[], int n)
 
 int main()
 {
-    int arr[]={1,2,2,3,4,4};
+    //int arr[]={1,2,2,3,4,4};
+    int arr[6];
+    for(int i=0;i<6;i++)
+        cin>>arr[i];
     PrintRepeating_(arr,6);
 }
